@@ -35,6 +35,6 @@ spec:
           mountPath: /etc/fluxd/ssh
         args:
         # replace (at least) the following URL
-        - '--git-url=git@github.com:weaveworks/flux-helm-test.git'
-        - '--git-branch=master'
+        - '--git-url=git@github.com:aaron7/flux-helm-test.git'
+        - '--git-branch=982-values-config'
         - '--git-charts-path=charts'
