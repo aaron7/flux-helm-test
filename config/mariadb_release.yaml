@@ -10,5 +10,4 @@
     chartGitPath: mariadb
     values:
       image: bitnami/mariadb:10.1.30-r1
-      persistence:
-        enabled: false
+      persistence.enabled: false
